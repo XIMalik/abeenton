@@ -28,7 +28,7 @@ const TheTeam = () => {
           </div>
           <div className="info text-center text-[#1C2451] flex flex-col gap-2">
             <h2 className='font-bold'>Chukwuma Richard Anorue</h2>
-            <p className='text-sm'>Head Legal & Compliance</p>
+            <p className='text-sm'>Head, Legal & Compliance</p>
           </div>
         </div>
         {/* <div className="profile flex flex-col items-center gap-2">
