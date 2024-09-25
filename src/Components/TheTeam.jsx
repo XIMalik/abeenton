@@ -19,7 +19,7 @@ const TheTeam = () => {
           </div>
           <div className="info text-center text-[#1C2451] flex flex-col gap-2">
             <h2 className='font-bold'>Adewale C. Fehintola</h2>
-            <p className='text-sm'>Founder/CEO</p>
+            <p className='text-sm'>CEO</p>
           </div>
         </div>
         <div className="profile flex flex-col items-center gap-2">
