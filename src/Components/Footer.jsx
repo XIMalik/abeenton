@@ -14,7 +14,7 @@ const Footer = () => {
     <p className="font-bold text-[12px]">
       Abeenton Oil & Gas
       <br />
-      Providing reliable tech since 1992
+      Providing reliable services for everyday living 
     </p>
     <p className='text-[12px]'>Copyright © {new Date().getFullYear()} - All right reserved</p>
   </aside>
