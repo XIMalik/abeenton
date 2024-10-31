@@ -1,5 +1,6 @@
 import React from 'react';
 import ceo from '/public/ceo.jpg'
+import pt from '/public/pt.jpg'
 import headlegal from '/public/headlegal.jpg'
 
 const TheTeam = () => {
@@ -29,6 +30,15 @@ const TheTeam = () => {
           <div className="info text-center text-[#1C2451] flex flex-col gap-2">
             <h2 className='font-bold'>Chukwuma Richard Anorue</h2>
             <p className='text-sm'>Head, Legal & Compliance</p>
+          </div>
+        </div>
+        <div className="profile flex flex-col items-center gap-2">
+          <div className="image lg:w-[130px] lg:h-[130px] w-[150px] h-[150px] overflow-hidden rounded-full">
+            <img src={pt} alt="profile" className='object-cover h-full grayscale w-full scale-[125%] hover:scale-[102%] ease-in duration-500'/>
+          </div>
+          <div className="info text-center text-[#1C2451] flex flex-col gap-2">
+            <h2 className='font-bold'>Ademola Adefolaju</h2>
+            <p className='text-sm'>Company Secretary</p>
           </div>
         </div>
         {/* <div className="profile flex flex-col items-center gap-2">
