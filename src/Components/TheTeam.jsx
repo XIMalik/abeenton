@@ -13,8 +13,8 @@ const TheTeam = () => {
         </span> */}
       </div>
 
-      <div className="profiles flex flex-wrap md:flex-row justify-evenly items-center gap-[70px]">
-        <div className="profile flex flex-col items-center gap-2">
+      <div className="profiles flex flex-wrap md:flex-row justify-center items-start gap-[70px]">
+        <div className="profile flex flex-col items-center gap-2 ">
           <div className="image lg:w-[130px] lg:h-[130px] w-[150px] h-[150px] overflow-hidden rounded-full">
             <img src={ceo} alt="profile" className='object-cover h-full w-full grayscale hover:scale-[102%] ease-in duration-500'/>
           </div>
@@ -25,11 +25,11 @@ const TheTeam = () => {
         </div>
         <div className="profile flex flex-col items-center gap-2">
           <div className="image lg:w-[130px] lg:h-[130px] w-[150px] h-[150px] overflow-hidden rounded-full">
-            <img src={pt} alt="profile" className='object-cover h-full grayscale w-full scale-[125%] hover:scale-[102%] ease-in duration-500'/>
+            <img src={pt} alt="profile" className='object-cover h-full grayscale w-full scale-[125%] hover:scale-[127%] ease-in duration-500'/>
           </div>
           <div className="info text-center text-[#1C2451] flex flex-col gap-2">
             <h2 className='font-bold'>Ademola Adefolaju</h2>
-            <p className='text-sm'>Head, Legal & Compliance/Company Secretary</p>
+            <p className='text-sm'>Head, Legal <br /> & Compliance/Company Secretary</p>
           </div>
         </div>
         <div className="profile flex flex-col items-center gap-2">
@@ -38,7 +38,7 @@ const TheTeam = () => {
           </div>
           <div className="info text-center text-[#1C2451] flex flex-col gap-2">
             <h2 className='font-bold'>Chukwuma Richard Anorue</h2>
-            <p className='text-sm'>Executvie Assistant/Legal & Compliance Officer</p>
+            <p className='text-sm'>Executive Assistant/Legal <br /> & Compliance Officer</p>
           </div>
         </div>
         {/* <div className="profile flex flex-col items-center gap-2">

@@ -15,7 +15,7 @@ const Navbar = () => {
     <div>
       {/* Navbar for larger screens */}
       <div className="navbar hidden md:flex justify-between bg-none rounded-full absolute px-10 py-2">
-          <a className="text-sm flex items-center gap-2 header_title">
+          <a className="text-sm flex items-center gap-2 header_title py-2">
             <img src={logo} alt="Abeenton logo" className='h-[55px]' />
             {/* <h1 className='header-title'>Abeenton</h1> */}
           </a>
@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="flex-1">
           <a className="text-sm flex items-center gap-2 header_title">
             <img src={logo_mob} alt="Abeenton logo" className='h-[40px]' />
-            <h1 className='header-title'>Abeenton</h1>
+            {/* <h1 className='header-title'>Abeenton</h1> */}
           </a>
         </div>
         <div className="flex-none">
