@@ -12,8 +12,7 @@ const Footer = () => {
     <img width="20" height="20" src="https://img.icons8.com/glyph-neue/512/FFFFFF/gmail-new.png" alt="gmail-new"/>
       </div>    
     <p className="font-bold text-[12px]">
-      Abeenton Oil & Gas
-      <br />
+   
       Providing reliable services for everyday living 
     </p>
     <p className='text-[12px]'>Copyright © {new Date().getFullYear()} - All right reserved</p>
