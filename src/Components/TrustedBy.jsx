@@ -3,8 +3,8 @@ import ImageTray from './ImageTray'
 import ImageTrayMobile from './ImageTrayMobile'
 import bb from '/public/boosters.jpg'
 import car1 from '/public/car1.svg'
-import car2 from '/public/car2.svg'
-import car3 from '/public/car3.svg'
+import car2 from '/public/car2.png'
+import car3 from '/public/car3.png'
 import car4 from '/public/car4.svg'
 import car5 from '/public/car5.svg'
 import car6 from '/public/car6.svg'
@@ -28,27 +28,27 @@ const TrustedBy = () => {
       >
         {/* First set of logos */}
         <img src={car1} className='w-[100px] h-auto' alt="Logo 1" />
-        {/* <img src={car2} className='w-[100px] h-auto' alt="Logo 1" /> */}
+        <img src={car2} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car3} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car4} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car5} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car6} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car7} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car1} className='w-[100px] h-auto' alt="Logo 1" />
-        {/* <img src={car2} className='w-[100px] h-auto' alt="Logo 1" /> */}
+        <img src={car2} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car3} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car4} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car5} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car6} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car7} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car1} className='w-[100px] h-auto' alt="Logo 1" />
-        {/* <img src={car2} className='w-[100px] h-auto' alt="Logo 1" /> */}
+        <img src={car2} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car3} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car4} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car5} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car6} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car7} className='w-[100px] h-auto' alt="Logo 1" />
-        {/* <img src={car2} className='w-[100px] h-auto' alt="Logo 1" /> */}
+        <img src={car2} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car3} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car4} className='w-[100px] h-auto' alt="Logo 1" />
         <img src={car5} className='w-[100px] h-auto' alt="Logo 1" />
